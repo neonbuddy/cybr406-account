@@ -55,7 +55,7 @@ public class AccountHomework02Tests {
     @Autowired
     private ObjectMapper objectMapper;
 
-    // Create JdbcUserDetailsManager bean
+
     @Test
     public void problem_01_configureUserDetailManagerBean() throws Exception {
         assertClassDeclaresMethod(
